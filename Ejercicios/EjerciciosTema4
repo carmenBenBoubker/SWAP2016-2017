@@ -64,7 +64,7 @@ Principalmente hay 2 tipos de redirecciones que debes conocer:
 ~>Redireccionamiento 301: Se puede definir este tipo de redireccion como “PERMANENTE”. Esto indica que todo contenido de una URL
  antigua se mueva de forma permanente a la URL nueva. De esta manera los buscadores dejarán de tener en cuenta la antigua URL y
 le traspasarán “aproximadamente” el 90% de la fuerza SEO a la nueva Web.
-
+ 
 ~>Redireccionamiento 302: Se puede definir este tipo de redirección como “TEMPORAL”. Esto indica que todo el contenido de una URL
 antigua se mueva de forma temporal a la URL nueva. De esta manera redirigimos a los buscadores y usuarios de la antigua URL a la
 nueva pero no traspasamos la fuerza del SEO de una a otra.
