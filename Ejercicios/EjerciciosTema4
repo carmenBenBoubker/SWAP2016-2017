@@ -1,10 +1,10 @@
-#EJERCICIOS TEMA 4
+# EJERCICIOS TEMA 4
 
-#Nombre : Carmen Bueno Ben Boubker
-#Asignatura : Servidores Web de Altas Prestaciones (SWAP)
+###### Nombre : Carmen Bueno Ben Boubker
+###### Asignatura : Servidores Web de Altas Prestaciones (SWAP)
 
 
-Ejercicio T4.1:
+#### Ejercicio T4.1:
 Buscar información sobre cuánto costaría en la actualidad un mainframe. Comparar precio y potencia entre esa máquina y una granja web de unas prestaciones similares.
 
 El ultimo mainframe conocido es el IBM z13, es un chip fabricado por IBM para sus z13 ordenadores centrales.
@@ -16,7 +16,7 @@ El precio es mayor que para una granja web, aunque el gasto en electricidad y el
 en la máquina nos dejaría sin poder servir a los clientes.
 
 
-Ejercicio T4.2:
+#### Ejercicio T4.2:
 Buscar información sobre precio y características de balanceadores hardware específicos. Compara las prestaciones que ofrecen unos y otros.
 
 ~>Rendimiento frente Costo: Alto Rendimiento de carga virtual del equilibrador
@@ -24,7 +24,7 @@ Buscar información sobre precio y características de balanceadores hardware es
 Al comparar el rendimiento de los equilibradores de carga de alto rendimiento virtuales (5 Gb +) de KEMP, F5 y Citrix, la KEMP VLM- 5000 y 10G ofrece el mismo rendimiento 5/10 Gbps como Big-IP de F5 VE-10G a un costo significativamente menor.
 
 
-~>Rendimiento frente Costo: Alto Rendimiento del equilibrador de carga de hardware**
+~>Rendimiento frente Costo: Alto Rendimiento del equilibrador de carga de hardware
 
 El equilibrador de carga de alto rendimiento KEMP LoadMaster-8000 proporciona más rendimiento por $ 1 que en los 7000s F5 BIG-IP LTM y Citrix MPX y en una fracción del costo.
 
@@ -50,8 +50,13 @@ Las transacciones de equilibrador de carga SSL virtual
 
 El KEMP VLM-10G soporta SSL TPS 3 veces más que el F5 BIG-IP LTM VE-10G a un costo 66% inferior y 4.5x el TPS SSL de Citrix NetScaler VPX-3000 de $ 11.000 menos.
 
+#### Ejercicio T4.3:
+Buscar información sobre los métodos de balanceo que implementan los dispositivos recogidos en el ejercicio 4.2.
 
-Ejercicio T4.5:
+#### Ejercicio T4.4:
+Instala y configura en una maquina virtual el balanceador ZenLoadBalancer
+
+#### Ejercicio T4.5:
 Probar las diferentes maneras de redirección HTTP.¿Cuál es adecuada y cuál no lo es para hacer balanceo de carga global? ¿Por qué?
 
 Principalmente hay 2 tipos de redirecciones que debes conocer:
@@ -65,7 +70,7 @@ antigua se mueva de forma temporal a la URL nueva. De esta manera redirigimos a 
 nueva pero no traspasamos la fuerza del SEO de una a otra.
 
 
-Ejercicio T4.6:
+#### Ejercicio T4.6:
 Buscar información sobre los bloques de IP para los distintos países o continentes. Implementar en JavaScript o PHP la detección de la zona desde donde se conecta un usuario
 
 Existen 4 organizaciones continentales que tienen la misión de asignar y controlar el uso de direcciones IP por parte de los países.
@@ -83,7 +88,7 @@ insumiría una consulta DNS. Esta técnica permite identificar sin problemas el 
 mecanismo de geotargeting basado en base de datos de IPs requiere un cierto mantenimiento si queremos evitar que quede desactualizado y nos brinde
 resultados erróneos.
 
-Ejercicio T4.7:
+#### Ejercicio T4.7:
 Buscar información sobre métodos y herramientas para implementar GSLB.
 
 El Global Server Load Balancing (GLSB) es popular por su función de recuperación de desastres y, también por la dirección inteligente de

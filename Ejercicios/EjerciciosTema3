@@ -1,10 +1,10 @@
-#EJERCICIOS TEMA 3
+# EJERCICIOS TEMA 3
 
-#Nombre : Carmen Bueno Ben Boubker
-#Asignatura : Servidores Web de Altas Prestaciones (SWAP)
+###### Nombre : Carmen Bueno Ben Boubker
+###### Asignatura : Servidores Web de Altas Prestaciones (SWAP)
 
 
-Ejercicio T3.1
+#### Ejercicio T3.1
 
 Buscar con qué órdenes de terminal o herramientas gráficas podemos configurar bajo Windows y bajo Linux el enrutamiento del tráfico de un servidor para pasar el tráfico desde una subred a otra.
 
@@ -15,7 +15,7 @@ se trata de un archivo en el cual se pueden establecer las configuraciones de re
 Si lo que queremos es crear una ruta pues se utiliza el comando *route* y añadirla o borrarla con *add* o *del* respectivamente.
 Si lo que queremos es mantener estas rutas tras reiniciar el servidor, añadimos la ruta al archivo */etc/network/interfaces* mediante la línea *up route add -net ...*.
 
-Ejercicio T3.2
+#### Ejercicio T3.2
 
 Buscar con qué órdenes de terminal o herramientas gráficas podemos configurar bajo Windows y bajo Linux el filtrado y bloqueo de paquetes.
 
